@@ -1,0 +1,3 @@
+<Class Name="Characters_ViewModel">
+  <Property Name="Characters_Collection" Type="Collection" SubType="Test.Character_ViewModel" CollectionMinItemCount="0" CollectionMaxItemCount="30"/>
+</Class>

@@ -6,7 +6,7 @@
   mc:Ignorable="d"
   d:DesignWidth="1920"
   d:DesignHeight="1080"
-  Background="#FF4D5052" Height="960" xmlns:system="clr-namespace:System;assembly=mscorlib">
+  Background="#FF4D5052" Height="960" xmlns:system="clr-namespace:System;assembly=mscorlib" d:DataContext="Characters_Data">
   <Grid>
     <Grid.ColumnDefinitions>
       <ColumnDefinition Width="4*"/>
@@ -16,24 +16,8 @@
       <RowDefinition Height="4*"/>
       <RowDefinition Height="1*"/>
     </Grid.RowDefinitions>
-    <ScrollViewer Grid.Row="1" Margin="0" HorizontalScrollBarVisibility="Auto">
-      <ListBox HorizontalAlignment="Left">
-        <ListBox.ItemsPanel>
-          <ItemsPanelTemplate>
-            <StackPanel Orientation="Horizontal" />
-          </ItemsPanelTemplate>
-        </ListBox.ItemsPanel>
-        <system:String>Item #1</system:String>
-        <system:String>Item #2</system:String>
-        <system:String>Item #3</system:String>
-        <system:String>Item #4</system:String>
-        <system:String>Item #5</system:String>
-        <system:String>Item #6</system:String>
-        <system:String>Item #7</system:String>
-        <system:String>Item #8</system:String>
-        <system:String>Item #9</system:String>
-        <system:String>Item #10</system:String>
-      </ListBox>
+    <ScrollViewer x:Name="CharacterScrollView" Grid.Row="1" Margin="0" HorizontalScrollBarVisibility="Auto">
+      <ListBox x:Name="CharacterSelection" HorizontalAlignment="Left" ItemsPanel="{DynamicResource ItemsPanelTemplate.001}" ItemsSource="{Binding Path=Characters_Collection}" ItemTemplate="{DynamicResource CharacterSelection_View}"/>
     </ScrollViewer>
   </Grid>
 </Page>

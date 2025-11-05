@@ -1,0 +1,5 @@
+<Class Name="Character_ViewModel">
+  <Property Name="Name" Type="String" StringMinWordCount="1" StringMaxWordCount="1"/>
+  <Property Name="Available" Type="Boolean"/>
+  <Property Name="ID" Type="String" StringMinWordCount="1" StringMaxWordCount="1"/>
+</Class>

@@ -1,0 +1,32 @@
+<vdctx:Characters_ViewModel xmlns:vdctx="clr-namespace:Test" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+  <vdctx:Characters_ViewModel.Characters_Collection>
+    <vdctx:Character_ViewModel Name="Sed" Available="True" ID="Tempor"/>
+    <vdctx:Character_ViewModel Name="Incididunt" Available="False" ID="Lorem"/>
+    <vdctx:Character_ViewModel Name="Et" Available="True" ID="Dolor"/>
+    <vdctx:Character_ViewModel Name="Sed" Available="True" ID="Scelerisque"/>
+    <vdctx:Character_ViewModel Name="Consectetur" Available="False" ID="Rutrum"/>
+    <vdctx:Character_ViewModel Name="Viverra" Available="True" ID="Vulputate"/>
+    <vdctx:Character_ViewModel Name="Enim" Available="False" ID="Consectetur"/>
+    <vdctx:Character_ViewModel Name="Pretium" Available="False" ID="Donec"/>
+    <vdctx:Character_ViewModel Name="Enim" Available="True" ID="Quam"/>
+    <vdctx:Character_ViewModel Name="Magna" Available="True" ID="Lectus"/>
+    <vdctx:Character_ViewModel Name="Aliquam" Available="True" ID="Venenatis"/>
+    <vdctx:Character_ViewModel Name="Dolor" Available="False" ID="Neque"/>
+    <vdctx:Character_ViewModel Name="Odio" Available="False" ID="Risus"/>
+    <vdctx:Character_ViewModel Name="Amet" Available="False" ID="In"/>
+    <vdctx:Character_ViewModel Name="Faucibus" Available="True" ID="Feugiat"/>
+    <vdctx:Character_ViewModel Name="Sit" Available="True" ID="Sagittis"/>
+    <vdctx:Character_ViewModel Name="Aliquam" Available="True" ID="Lectus"/>
+    <vdctx:Character_ViewModel Name="Sit" Available="False" ID="Hendrerit"/>
+    <vdctx:Character_ViewModel Name="Porttitor" Available="True" ID="Cursus"/>
+    <vdctx:Character_ViewModel Name="Quam" Available="False" ID="Donec"/>
+    <vdctx:Character_ViewModel Name="Semper" Available="True" ID="Faucibus"/>
+    <vdctx:Character_ViewModel Name="Lorem" Available="False" ID="Viverra"/>
+    <vdctx:Character_ViewModel Name="Justo" Available="True" ID="Adipiscing"/>
+    <vdctx:Character_ViewModel Name="Nisl" Available="False" ID="Ac"/>
+    <vdctx:Character_ViewModel Name="Purus" Available="True" ID="Enim"/>
+    <vdctx:Character_ViewModel Name="Odio" Available="False" ID="Rhoncus"/>
+    <vdctx:Character_ViewModel Name="Magna" Available="True" ID="Hendrerit"/>
+    <vdctx:Character_ViewModel Name="Semper" Available="False" ID="Aliquam"/>
+  </vdctx:Characters_ViewModel.Characters_Collection>
+</vdctx:Characters_ViewModel>
