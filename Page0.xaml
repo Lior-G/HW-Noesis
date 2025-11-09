@@ -7,7 +7,7 @@
   d:DesignWidth="1920"
   d:DesignHeight="1080"
   Background="#FF4D5052" Height="960" xmlns:system="clr-namespace:System;assembly=mscorlib" d:DataContext="Characters_Data">
-  <Grid>
+  <Grid Background="#FF0072FF">
     <Grid.ColumnDefinitions>
       <ColumnDefinition Width="4*"/>
       <ColumnDefinition Width="1*"/>
@@ -19,5 +19,6 @@
     <ScrollViewer x:Name="CharacterScrollView" Grid.Row="1" Margin="0" HorizontalScrollBarVisibility="Auto">
       <ListBox x:Name="CharacterSelection" HorizontalAlignment="Left" ItemsPanel="{DynamicResource ItemsPanelTemplate.001}" ItemsSource="{Binding Path=Characters_Collection}" ItemTemplate="{DynamicResource CharacterSelection_View}"/>
     </ScrollViewer>
+    <Button Content="Button" Grid.Row="1" Grid.Column="1" Command="{Binding Path=events.onPlayerSelectCharacter}" BorderThickness="2,2,2,2" BorderBrush="#FFFDFDFD" Padding="0,0,0,0" FontSize="50" FontWeight="Bold" FontFamily="Arial" Height="190" Width="380"/>
   </Grid>
 </Page>

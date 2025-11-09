@@ -5,8 +5,10 @@
     <StackPanel Orientation="Horizontal"/>
   </ItemsPanelTemplate>
   <DataTemplate x:Key="CharacterSelection_View" DataType="test:Character_ViewModel">
-    <Grid Width="128">
-      <TextBlock x:Name="Character_Name" Text="{Binding Path=Name}" HorizontalAlignment="Center"/>
-    </Grid>
+    <Viewbox Stretch="Uniform" VerticalAlignment="Stretch">
+      <Grid Width="2" Height="3">
+        <TextBlock x:Name="Character_Name" Text="{Binding Path=Name}" HorizontalAlignment="Center"/>
+      </Grid>
+    </Viewbox>
   </DataTemplate>
 </ResourceDictionary>
